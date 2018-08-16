@@ -10,3 +10,4 @@ We are not interested in a pixel-perfect design. In HTML our focus is on concise
 
 The dropdown should work in the evergreen browsers (Chrome, Firefox, Edge and Safari latest two versions). If you have time, maybe think about what would need to change if you also had to support IE11.
 
+![half open](img-01-half-open.png)
