@@ -1,0 +1,35 @@
+.listGroup {
+	list-style-type: none;
+	background: yellow;
+	margin: 0;
+	padding: 0;
+}
+.listGroup--item__topLevel {
+	display: inline;
+	position: relative;
+	margin-right: 5px;
+}
+.listGroup--dropdown {
+	padding-left: 0;
+	position: absolute;
+	display: none;
+}
+.listGroup--dropdown__sub {
+	list-style-type: none;
+	left: 100%;
+	top: 0;
+}
+.listGroup--item:hover > ul {
+	display: block;
+}
+.listGroup--item__sub {
+	display: block;
+	transition-duration: .5s;
+	white-space: nowrap;
+}
+.listGroup--item:hover {
+	cursor: pointer;
+}
+body {
+	font-family: Arial;
+}
