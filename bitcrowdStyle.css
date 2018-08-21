@@ -1,8 +1,15 @@
+body {
+	font-family: Arial;
+}
 .listGroup {
 	list-style-type: none;
 	background: yellow;
 	margin: 0;
 	padding: 0;
+}
+.listGroup--item {
+	margin-right: 5px;
+	padding: 5px; 
 }
 .listGroup--item__topLevel {
 	display: inline;
@@ -19,6 +26,10 @@
 	left: 100%;
 	top: 0;
 }
+.listGroup--dropwdown__sub > li {
+	height: 200px;
+	display: block;
+}
 .listGroup--item:hover > ul {
 	display: block;
 }
@@ -26,10 +37,9 @@
 	display: block;
 	transition-duration: .5s;
 	white-space: nowrap;
+	position: relative; /* make submenu show up directly on the side of menu*/
 }
 .listGroup--item:hover {
 	cursor: pointer;
 }
-body {
-	font-family: Arial;
-}
+
