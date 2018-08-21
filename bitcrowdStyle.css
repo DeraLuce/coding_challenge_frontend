@@ -26,10 +26,6 @@ body {
 	left: 100%;
 	top: 0;
 }
-.listGroup--dropwdown__sub > li {
-	height: 200px;
-	display: block;
-}
 .listGroup--item:hover > ul {
 	display: block;
 }
